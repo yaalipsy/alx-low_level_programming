@@ -1,4 +1,5 @@
 #include <stdio>
+
 /**
  * main - Prints alphabets in both upper and lower case
  * followed by a new line
