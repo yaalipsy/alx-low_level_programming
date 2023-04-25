@@ -2,7 +2,7 @@
 
 
 /**
- * main - Prints the alphabets in lower case and
+ * main - Prints the alphabet in lower case,
  * followed by a new line , except q and e
  * Return: 0 if exited properly, non-zero otherwise
  */
@@ -18,6 +18,7 @@ int main(void)
 		}
 		ch++;
 	}
-	putchar("\n');
+	putchar(""\n');
+
 	return (0);
 }
