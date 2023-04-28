@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints the add of the Fibonacci numbers
- * Return :0 Always
+ * Return: 0 Always
  */
 int main(void)
 {
@@ -18,7 +18,6 @@ int main(void)
 		n1 = n2;
 		n2 = fn;
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
-
