@@ -4,7 +4,7 @@
  * using at most n bytes from src
  * @dest: input value
  * @src: input value
- * @n; input value
+ * @n: number of bytes to be concatenated
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
