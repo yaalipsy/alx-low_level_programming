@@ -8,7 +8,7 @@
  */
 void print_buffer(char *b, int size)
 {
-	into 0, j, i;
+	int 0, j, i;
 
 	o = 0;
 
