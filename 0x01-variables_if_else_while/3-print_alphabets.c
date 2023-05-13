@@ -1,18 +1,18 @@
 #include <stdio>
 
 /**
- * main - Prints alphabets in both upper and lower case
- * followed by a new line
- * Return: 0 if exited properly, non-zero otherwise
+ * main - Prints the alphabet
+ * Return: 0
  */
 int main(void)
 {
-	int ch;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch ch++)
-		putchar(ch);
-	putchar("\n');
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return (0);
 }
