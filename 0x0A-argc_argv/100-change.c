@@ -7,7 +7,7 @@
  * make change for a an amount of money
  * @argc: number of arguments
  * @argv: array of arguements
- * Return: 0 (success), 1 (error)
+ * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 	i = atoi(argv[1]);
