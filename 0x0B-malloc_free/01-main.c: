@@ -1,0 +1,7 @@
+n.c:30:11: error: implicit declaration of function ‘strtow’; did you mean ‘strtoq’? [-Werror=implicit-function-declaration]
+   30 |     tab = strtow("      ALX School         #cisfun      ");
+      |           ^~~~~~
+      |           strtoq
+101-main.c:30:9: error: assignment to ‘char **’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   30 |     tab = strtow("      ALX School         #cisfun      ");
+      |         ^
