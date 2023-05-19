@@ -7,7 +7,7 @@
 /**
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
- * Return: 0 if a non-digitis found, 1 otherwise
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 int is_digit(char *s)
 {
@@ -51,7 +51,7 @@ void errors(void)
  * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
