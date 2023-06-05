@@ -1,4 +1,4 @@
-; flie: 101-hello_holberton.asm
+; Flie: 101-hello_holberton.asm
 ; Desc: 64-bit assembly program that prints
 ;	Hello, Holberton followed by a new line.
 
@@ -13,7 +13,6 @@ main:
 	mov rdi,fmt
 	mov rsi,msg
 	mov rax,0
-
 	call printf
 
 	pop rbp
@@ -24,5 +23,5 @@ main:
 	ret
 
 section .data
-msg: db "Hllo, Holberton", 0
+msg: db "Hello, Holberton", 0
 fmt: db "%s", 10, 0
