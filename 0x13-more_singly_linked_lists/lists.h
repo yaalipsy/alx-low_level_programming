@@ -1,11 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/**
+/*
  * File: lists.h
  * Desc: Header file containing prototypes and definitions for
- * 	functions and types written in 0x13-more_singly_linked_lists
- * 	directory
+ *	functions and types written in 0x13-more_singly_linked_lists
+ *	directory
  */
 
 #include <stdlib.h>
@@ -16,7 +16,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 		for Holberton project
+ *		for Holberton project
  */
 
 typedef struct listint_s
