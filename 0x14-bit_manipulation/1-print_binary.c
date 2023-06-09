@@ -16,13 +16,14 @@ void print_binary(unsigned long int n)
 		printf("0");
 		return;
 	}
-	for (i = n, num = 0; (i >>= 1) > 0; num++);
+	for (i = n, num = 0; (i >>= 1) > 0; num++)
+		;
 
 	for (; num >= 0; num--)
 	{
-		if ((n >> & num) & 1)
+		if ((n >> num) & 1)
 			printf("1");
-		else 
+		else
 			printf("0");
 	}
 }
