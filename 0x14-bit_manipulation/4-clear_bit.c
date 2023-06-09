@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit -Set the value of a bit to 0 at a given index
+ * clear_bit - Set the value of a bit to 0 at a given index
  * @n: pointer to decimal
  * @index: index position
  * Return: 1 if it worked, -1 if error
