@@ -3,7 +3,7 @@
 /**
  * __exit - prints error messages and exits with value
  * @error: num is either exit value or file descriptor
- * @s: str is a name either of the two filenames
+ * @s: str is a name, either of the two filenames
  * @fd: file descriptor
  *
  * Return: 0 on success
@@ -33,7 +33,7 @@ int __exit(int error, char *s, int fd)
 /**
  * main - Copies one file to another
  * @argc: Should be 3 (./a.out copufromfile copytofile)
- * @argv: First is the file to copy from (fd_1)
+ * @argv: First is the file to copy from (fd_1),
  *	 second is file to copy to (fd_2)
  *
  * Return: 0 (success), 97-100 (exit value errors)
