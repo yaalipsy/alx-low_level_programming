@@ -32,8 +32,8 @@ int __exit(int error, char *s, int fd)
 
 /**
  * main - Copies one file to another
- * @argc: Should be 3 (./a.out copufromfile copytofile)
- * @argv: First is the file to copy from (fd_1),
+ * @argc: Should be 3 (./a.out copyfromfile copytofile)
+ * @argv: First is file to copy from (fd_1),
  *	 second is file to copy to (fd_2)
  *
  * Return: 0 (success), 97-100 (exit value errors)
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 
 		n_wrote = write(fd_2, buffer, n_read);
 		if (n_wrote == -1)
-		__exit(99,  argv[2], 0);
+		__exit(99, argv[2], 0);
 	}
 
 	close(fd_2) == -1 ? (__exit(100, NULL, fd_2)) : close(fd_2);
