@@ -20,10 +20,10 @@ int __exit(int error, char *s, int fd)
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", s);
 			exit(error);
 		case 99:
-			printf(STDERR_FILENO, "Error: Can't write to %s\n", s);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", s);
 			exit(error);
 		case 100:
-			printf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 			exit(error);
 		default:
 			return (0);
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 		__exit(97, NULL, 0);
 
-	fd_2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONGLY, 0664);
+	fd_2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	if (fd_2 == -1)
 		__exit(99, argv[2], 0);
 
